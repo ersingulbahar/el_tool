@@ -13,7 +13,7 @@ import pandas as pd
 
 class connection_config(i_messages):
     def __init__(self, args): 
-        ##################################################################BURAYA LOG_LEVEL GELİYOR AMA AŞAĞIDA NONE PASS EDİYOR İLK YAPTIĞIMDA DÜZGÜN OLMUŞTU DA SANIRIM BOZDUM YARIN BAKARIM.
+
         i_messages.__init__(self, log_level=args.log_level)
         self.args = args
         
